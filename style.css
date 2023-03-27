@@ -24,7 +24,7 @@ p {
 header {
     padding: 20px;
     border-bottom: 1px #c7c7c74b solid;
-    margin: 0 5%;
+    margin: 0 3em;
 }
 
 nav {
@@ -67,12 +67,12 @@ nav ul li a {
 
 main {
     display: flex;
+    margin: 10px 40px;
 }
 
 .left {
     display: block;
     width: 40%;
-    margin: 10px 40px;
 }
 
 .right {
@@ -80,7 +80,6 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
-    margin: 10px 40px;
 }
 
 textarea {
