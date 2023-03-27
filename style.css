@@ -22,9 +22,6 @@ p {
 
 /* Layout and spacing */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px;
     border-bottom: 1px #c7c7c74b solid;
     margin: 0 5%;
@@ -33,7 +30,7 @@ header {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 nav img {
