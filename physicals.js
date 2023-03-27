@@ -23,6 +23,7 @@ const uploadConfirm = document.getElementById("upload-confirm").
     });
     rosterSwitch.innerHTML = 'File Uploaded!'
     rosterSwitch.style.background = 'rgb(37 159 67)'
+    rosterSwitch.style.color = '#FFFFFF'
     console.log(roster)
 });
 
