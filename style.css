@@ -67,12 +67,13 @@ nav ul li a {
 
 main {
     display: flex;
-    margin: 10px 40px;
+    margin: 20px 40px;
 }
 
 .left {
     display: block;
     width: 40%;
+    margin-right: 15px;
 }
 
 .right {
@@ -203,6 +204,7 @@ input[type="file"] {
         display: block;
         width: 100%;
         margin: 0;
+        margin-right: 0;
     }
     
     .right {
